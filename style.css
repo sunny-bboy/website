@@ -173,22 +173,38 @@ h1 .about {
   font-variant: small-caps;
   text-shadow: 0 0 10px rgb(4, 16, 56);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 301px) {
   .home h1 {
-    font-size: 50px;
-    font-weight: 500;
+    margin-bottom: 39px;
+    font-size: 30px;
+    font-weight: bold;
   }
   .quote {
-    font-weight: bold;
     margin-bottom: 140px;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: lighter;
   }
 }
-@media screen and (max-width: 800px) and (min-width: 401px) {
+@media screen and (max-width: 401px) {
   .home h1 {
-    font-size: 60px;
+    margin-bottom: 39px;
+    font-size: 30px;
+    font-weight: bold;
   }
   .quote {
-    margin-bottom: 200px;
+    margin-bottom: 140px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home h1 {
+    font-size: 40px;
+  }
+  .quote {
+    margin-bottom: 140px;
   }
 }
 .about-me h1 {
