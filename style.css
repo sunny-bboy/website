@@ -319,13 +319,18 @@ button a {
   text-align: center;
   color: rgb(231, 234, 241);
   cursor: pointer;
-  margin: 40px;
 }
 .contact-container .email-phone p:hover {
   text-decoration: underline;
   text-decoration-color: rgb(231, 234, 241);
   text-decoration-thickness: 3px;
   background-color: rgb(65, 96, 199);
+}
+@media screen and (max-width: 600px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .contact-container i {
   color: rgb(231, 234, 241);
