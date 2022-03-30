@@ -311,6 +311,7 @@ button a {
 .contact-container {
   display: grid;
   grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: repeat(2, 4fr);
   justify-items: center;
   align-items: center;
   font-size: 2.3rem;
@@ -320,7 +321,12 @@ button a {
   cursor: pointer;
   margin: 40px;
 }
-
+.contact-container .email-phone p:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(231, 234, 241);
+  text-decoration-thickness: 3px;
+  background-color: rgb(65, 96, 199);
+}
 .contact-container i {
   color: rgb(231, 234, 241);
   margin: 40px;
