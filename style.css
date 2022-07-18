@@ -293,6 +293,11 @@ button a {
   background-color: rgb(231, 234, 241);
   color: rgb(65, 96, 199);
 }
+button a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(65, 96, 199);
+  text-decoration-thickness: 3px;
+}
 .contact p {
   font-size: 17px;
   color: rgb(231, 234, 241);
@@ -305,7 +310,7 @@ button a {
   color: rgb(250, 250, 229);
   text-shadow: 0 0 5px rgb(6, 25, 88);
   font-weight: 100;
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 .contact-container {
