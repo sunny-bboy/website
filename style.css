@@ -276,15 +276,23 @@ h1 .about {
 hr {
   margin-top: 20px;
 }
+
+button:active {
+  transform: scale(0.9);
+}
+
+a button {
+  border: rgb(4, 38, 148);
+}
+
 button {
+  cursor: pointer;
   display: block;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   height: 50px;
-}
-button a {
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
@@ -293,11 +301,13 @@ button a {
   background-color: rgb(231, 234, 241);
   color: rgb(65, 96, 199);
 }
-button a:hover {
+
+button:hover {
   text-decoration: underline;
   text-decoration-color: rgb(65, 96, 199);
   text-decoration-thickness: 3px;
 }
+
 .contact p {
   font-size: 17px;
   color: rgb(231, 234, 241);
