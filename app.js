@@ -14,7 +14,30 @@ const navMotion = () => {
         }s`;
     });
     hamburger.classList.toggle("toggle");
+    navLinks.forEach((eachLink) => {
+      eachLink.addEventListener("click", () => {
+        hamburger.click();
+      });
+    });
   });
 };
 
 navMotion();
+
+const quote = document.querySelector(".quote");
+const h1 = document.querySelector(".home h1");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      entry.target.classList.toggle("show", entry.isIntersecting);
+      if (entry.isIntersecting) observer.unobserve(entry.target);
+    });
+  },
+  {
+    threshold: 1,
+  }
+);
+
+observer.observe(quote);
+observer.observe(h1);
