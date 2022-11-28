@@ -43,7 +43,6 @@ nav a {
 .nav-links a {
   display: inline-block;
   text-align: center;
-  transition: step-end;
   width: 80px;
   padding: 25px 5px 25px 5px;
 }
@@ -142,7 +141,7 @@ h1 .about {
 .nav-links a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(231, 234, 241);
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2.5px;
   cursor: pointer;
 }
 
@@ -189,7 +188,7 @@ header > h1.show,
   letter-spacing: 2px;
   color: white;
   text-shadow: 0 0 10px rgb(0, 0, 0);
-  transform: translateY(100px);
+  transform: translateY(30px);
   opacity: 0;
 }
 
@@ -204,7 +203,7 @@ header > h1.show,
   font-weight: 100;
   font-variant: small-caps;
   text-shadow: 0 0 20px rgb(4, 16, 56);
-  transform: translateY(100px);
+  transform: translateY(30px);
   opacity: 0;
 }
 
@@ -257,7 +256,7 @@ header > h1.show,
 }
 
 .about-me p {
-  margin: 310px 50px 10px 50px;
+  margin: 370px 50px 10px 50px;
   line-height: 130%;
   text-align: center;
   font-size: 22px;
@@ -323,6 +322,10 @@ header > h1.show,
   }
 }
 
+.portfolio {
+  padding-bottom: 30px;
+}
+
 .portfolio h1 {
   margin-top: 50px;
   text-align: center;
@@ -347,19 +350,20 @@ a button {
 
 button {
   cursor: pointer;
-  display: block;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 250px;
   width: 200px;
   height: 50px;
   font-size: 20px;
   font-weight: 200;
-  text-decoration: none;
   text-decoration-color: #1462f4;
   text-decoration-thickness: 2.5px;
   background-color: rgb(231, 234, 241);
   color: #1462f4;
+}
+
+a {
+  text-decoration: none;
 }
 
 button:hover {
