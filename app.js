@@ -15,6 +15,12 @@ const navMotion = () => {
     });
     hamburger.classList.toggle("toggle");
   });
+
+  navLinks.forEach((eachLink, eachIndex) => {
+    eachLink.addEventListener("click", () => {
+      hamburger.click();
+    });
+  });
 };
 
 navMotion();
