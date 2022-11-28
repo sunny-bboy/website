@@ -265,15 +265,16 @@ h1 .about {
     width: fit-content;
   }
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1500px) {
   .skills {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     justify-content: center;
     column-gap: 15rem;
   }
-  .skills p {
-    display: grid;
+
+  .skills p:nth-child(1) {
+    margin-left: 23%;
   }
 }
 .portfolio h1 {
