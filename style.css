@@ -415,7 +415,7 @@ button:hover {
   .contact-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: -90px;
+    margin-top: 30px;
   }
 }
 
