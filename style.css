@@ -324,6 +324,9 @@ header > h1.show,
 
 .portfolio {
   padding-bottom: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio h1 {
@@ -332,7 +335,7 @@ header > h1.show,
   color: rgb(250, 250, 229);
   text-shadow: 0 0 5px rgb(6, 25, 88);
   font-weight: 100;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 
@@ -350,9 +353,9 @@ a button {
 
 button {
   cursor: pointer;
-  margin-top: 30px;
-  margin-left: 250px;
-  width: 200px;
+  margin-top: 35px;
+  margin-left: 30px;
+  width: 150px;
   height: 50px;
   font-size: 20px;
   font-weight: 200;
@@ -393,10 +396,9 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(2, 3fr);
   grid-template-rows: repeat(2, 4fr);
-  justify-items: center;
   align-items: center;
-  font-size: 2.3rem;
-  height: 70px;
+  font-size: 2.5rem;
+  margin-top: 40px;
   text-align: center;
   color: rgb(231, 234, 241);
   cursor: pointer;
@@ -413,6 +415,7 @@ button:hover {
   .contact-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-top: -90px;
   }
 }
 
