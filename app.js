@@ -14,11 +14,10 @@ const navMotion = () => {
         }s`;
     });
     hamburger.classList.toggle("toggle");
-  });
-
-  navLinks.forEach((eachLink, eachIndex) => {
-    eachLink.addEventListener("click", () => {
-      hamburger.click();
+    navLinks.forEach((eachLink) => {
+      eachLink.addEventListener("click", () => {
+        hamburger.click();
+      });
     });
   });
 };

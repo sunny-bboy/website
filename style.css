@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 body {
-  background-color: rgb(65, 96, 199);
+  background-color: #1462f4;
   overflow: hidden;
 }
 nav {
@@ -13,7 +13,7 @@ nav {
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(65, 96, 199);
+  background-color: #1e6dff;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -43,10 +43,10 @@ nav a {
 }
 .nav-links .current-link:active {
   text-decoration: underline;
-  text-decoration-color: rgb(65, 96, 199);
+  text-decoration-color: #1462f4;
   text-decoration-thickness: 3px;
   background-color: rgb(231, 234, 241);
-  color: rgb(65, 96, 199);
+  color: #1462f4;
 }
 .hamburger-menu div {
   width: 25px;
@@ -83,7 +83,7 @@ nav a {
     width: 100%;
     transform: translateX(100%);
     transition: 0.5s ease-in;
-    background-color: rgb(65, 96, 199);
+    background-color: #1e6dff;
   }
   .nav-links li {
     opacity: 0;
@@ -117,10 +117,10 @@ nav a {
 }
 h1 .about {
   text-decoration: underline;
-  text-decoration-color: rgb(65, 96, 199);
+  text-decoration-color: #1462f4;
   text-decoration-thickness: 3px;
   background-color: rgb(231, 234, 241);
-  color: rgb(65, 96, 199);
+  color: #1462f4;
 }
 .nav-links a:hover {
   text-decoration: underline;
@@ -282,7 +282,7 @@ button:active {
 }
 
 a button {
-  border: rgb(4, 38, 148);
+  border: #1e6dff;
 }
 
 button {
@@ -296,15 +296,15 @@ button {
   font-size: 20px;
   font-weight: 200;
   text-decoration: none;
-  text-decoration-color: rgb(65, 96, 199);
+  text-decoration-color: #1462f4;
   text-decoration-thickness: 3px;
   background-color: rgb(231, 234, 241);
-  color: rgb(65, 96, 199);
+  color: #1462f4;
 }
 
 button:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(65, 96, 199);
+  text-decoration-color: #1462f4;
   text-decoration-thickness: 3px;
 }
 
@@ -339,7 +339,7 @@ button:hover {
   text-decoration: underline;
   text-decoration-color: rgb(231, 234, 241);
   text-decoration-thickness: 3px;
-  background-color: rgb(65, 96, 199);
+  background-color: #1462f4;
 }
 @media screen and (max-width: 600px) {
   .contact-container {
