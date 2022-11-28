@@ -245,15 +245,7 @@ h1 .about {
   margin-top: 40px;
   font-size: 30px;
 }
-.skills img {
-  display: block;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 260px;
-  height: 250px;
-  object-fit: cover;
-}
+
 .skills img {
   display: block;
   margin-top: 40px;
@@ -261,18 +253,27 @@ h1 .about {
   margin-right: auto;
   width: 260px;
   height: 250px;
-  object-fit: cover;
+  width: fit-content;
 }
 @media screen and (max-width: 500px) {
   .skills img {
-    width: 190px;
-    height: 200px;
-    object-fit: cover;
+    width: fit-content;
   }
 }
 @media screen and (max-width: 800px) and (min-width: 501px) {
   .skills img {
     width: fit-content;
+  }
+}
+@media screen and (min-width: 801px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    column-gap: 15rem;
+  }
+  .skills p {
+    display: grid;
   }
 }
 .portfolio h1 {
