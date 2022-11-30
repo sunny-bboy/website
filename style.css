@@ -276,7 +276,11 @@ header > h1.show,
 
 .skills {
   display: grid;
-  margin-bottom: 140px;
+  grid-template-columns: repeat(auto-fit, 1px);
+  justify-content: center;
+  column-gap: 12rem;
+  margin-right: 100px;
+  margin-bottom: 120px;
 }
 
 .skills p {
@@ -285,41 +289,97 @@ header > h1.show,
   text-shadow: 0 0 5px rgb(10, 16, 41);
   padding: 50px 0 0 0;
   margin-top: 40px;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+.html {
+  margin-left: 28px;
+}
+
+.css {
+  margin-left: 35px;
+}
+
+.javascript {
+  margin-left: 10px;
+}
+
+.postgres {
+  margin-left: 3px;
 }
 
 .skills img {
   display: block;
   margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 260px;
-  height: 250px;
-  width: fit-content;
+  width: 50px;
+  aspect-ratio: 1;
 }
 
-@media screen and (max-width: 500px) {
-  .skills img {
-    width: fit-content;
+.skills img {
+  display: block;
+  margin-top: 40px;
+  width: 140px;
+  aspect-ratio: 1;
+  margin-left: -100%;
+}
+
+@media screen and (max-width: 550px) {
+  .skills {
+    grid-template-columns: repeat(1, 1px);
+    margin-right: 145px;
   }
 }
 
-@media screen and (max-width: 800px) and (min-width: 501px) {
+@media screen and (max-width: 800px) and (min-width: 551px) {
+  .skills {
+    grid-template-columns: repeat(4, 90px);
+    column-gap: 3rem;
+  }
   .skills img {
-    width: fit-content;
+    width: 70px;
+    margin-left: 70%;
+  }
+  .html {
+    margin-left: 58px;
+  }
+
+  .css {
+    margin-left: 67px;
+  }
+
+  .javascript {
+    margin-left: 41px;
+  }
+
+  .postgres {
+    margin-left: 33px;
   }
 }
 
 @media screen and (min-width: 1500px) {
   .skills {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(auto-fit, 10px);
     justify-content: center;
-    column-gap: 12rem;
+    column-gap: 25rem;
+  }
+  .skills img {
+    margin-left: 45%;
+  }
+  .html {
+    margin-left: 35px;
   }
 
-  .skills p:nth-child(1) {
-    margin-left: 23%;
+  .css {
+    margin-left: 40px;
+  }
+
+  .javascript {
+    margin-left: 17px;
+  }
+
+  .postgres {
+    margin-left: 9px;
   }
 }
 
