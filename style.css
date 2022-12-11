@@ -50,7 +50,7 @@ nav a {
 .nav-links .current-link:active {
   text-decoration: underline;
   text-decoration-color: #1462f4;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2.5px;
   background-color: rgb(231, 234, 241);
   color: #1462f4;
 }
