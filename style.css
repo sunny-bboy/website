@@ -246,7 +246,7 @@ header > h1.show,
 
 .about-me > div {
   position: relative;
-  top: 300px;
+  top: 100px;
   text-align: center;
   color: white;
   text-shadow: 0 0 20px rgb(0, 0, 0);
@@ -256,7 +256,7 @@ header > h1.show,
 }
 
 .about-me p {
-  margin: 330px 50px 10px 50px;
+  margin: 130px 50px 10px 50px;
   line-height: 130%;
   text-align: center;
   font-size: 22px;
@@ -383,12 +383,13 @@ header > h1.show,
 }
 
 .portfolio {
-  padding-bottom: 35px;
   display: grid;
   place-items: center;
 }
 
 .portfolio > div {
+  position: relative;
+  top: 25px;
   margin-top: 50px;
   color: rgb(250, 250, 229);
   text-shadow: 0 0 5px rgb(6, 25, 88);
@@ -397,8 +398,12 @@ header > h1.show,
   letter-spacing: 3px;
 }
 
+.portfolio > a {
+  margin-top: 66px;
+}
+
 hr {
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .downloadCV:active {
