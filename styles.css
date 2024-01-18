@@ -298,7 +298,7 @@ main {
 }
 
 .project__scan__qr__code {
-  grid-column: 2;
+  grid-column: 1 / 4;
 }
 
 .project:hover {
