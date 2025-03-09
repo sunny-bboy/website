@@ -253,6 +253,7 @@ main {
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
 }
 
 .about__name {
@@ -261,11 +262,16 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  font-size: 1.5rem;
+  color: var(--clr-secondary);
 }
 
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  margin: 1.2em auto;
+  line-height: 1.6;
+  color: var(--clr-text);
 }
 
 .about__desc,
